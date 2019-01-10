@@ -1,12 +1,12 @@
 <template>
-  <div class="hello">
+  <v-layout>
     <h1>Welcome to Movieman</h1>
-  </div>
+  </v-layout>
 </template>
 
 <script>
 export default {
-  name: 'Hellowold',
+  name: 'Home',
 };
 </script>
 
