@@ -6,10 +6,12 @@ import BootstrapVue from 'bootstrap-vue';
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import App from './App';
+import VueSwal from 'vue-swal';
 import router from './router';
 
 Vue.use(BootstrapVue);
 Vue.use(Vuetify);
+Vue.use(VueSwal);
 Vue.config.productionTip = false;
 /* eslint-disable no-new */
 new Vue({
