@@ -8,6 +8,13 @@
             <span class="grey--text">
               {{ movie.release_year }} ‧ {{
               movie.genre }}
+              <v-btn
+                fab
+                class="text-lowercase"
+                small
+                color="danger"
+                v-bind:to="`/movies/${movie._id}`"
+              >More.</v-btn>
             </span>
           </div>
         </v-card-title>
@@ -44,10 +51,15 @@ export default {
   },
 };
 </script>
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1,
 h2 {
   font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none;
 }
 </style>
